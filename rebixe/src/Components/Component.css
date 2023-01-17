@@ -1,0 +1,56 @@
+/* header css */
+.navbar{
+  background-color: black;
+  color: white;
+  width: 100vw;
+ position: fixed;
+  display: flex;
+  margin-top: 0;
+  top: 0;
+}
+.navbar .list ul{
+    align-items: right;
+    justify-content: right;
+    margin-left: 32rem;
+}
+.navbar .list ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;  
+    font-weight: 300;
+}
+.navbar .icon{
+    align-items: left;
+    justify-content: left;
+}
+.navbar .icon img{
+    height: 4rem;
+    width: 9rem;
+}
+ /* body css */
+ .first{
+    margin-top: 4.3rem;
+ }
+ .first img{
+    width:100vw;
+    height: 75vh;
+ }
+ .text{
+    display: flex;
+    margin-left:10%;
+    margin-right: 10%;
+ }
+ .text .para{
+    width: 40rem;
+    font-size: 14px; 
+ }
+ .purple{
+    background-color: rgb(201, 59, 201);
+    color: white;
+    font-size: 14px;
+    width: 100vw;
+ }
+ .purple .text{
+    width: 63rem;
+    font-size: 16px;
+ }
