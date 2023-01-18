@@ -1,4 +1,6 @@
 import './Component.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faFacebook ,faLinkedin} from "@fortawesome/free-brands-svg-icons";
 function Footer() {
     return ( <>
     <div className="about">
@@ -22,10 +24,9 @@ function Footer() {
       </ul> 
       </div>
       <div className="learn">
-      
-     <p>LEARN MORE<br/>
-     About </p> 
-     <p> Contact Us</p>
+          <p>LEARN MORE</p>
+          <p>About </p>
+          <p> Contact Us</p>
       </div> 
       <div className="address">
       <p>
@@ -33,7 +34,10 @@ function Footer() {
       Novel Tech Park, 1st Floor, Hosur Rd, Kudlu gate, Bengaluru, Karnataka 560068
       Phone: 0804-717-8999 
       Email: hi@rubixe.com</p>
-      SOCIAL MEDIA
+      SOCIAL MEDIA <br/>
+      <FontAwesomeIcon className="ic" icon={faFacebook}> &nbsp; 
+      </FontAwesomeIcon> <FontAwesomeIcon icon={faLinkedin} className="ic"></FontAwesomeIcon>
+      
       </div>
     </div>
     <footer className="foot">

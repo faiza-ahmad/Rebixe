@@ -2,7 +2,7 @@ import './App.css';
 import Body from './Components/Body';
 import Cards from './Components/Cards';
 import Footer from './Components/Footer';
-import From from './Components/Form';
+import Form from './Components/Form';
 import Header from './Components/Header';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <Header/>
     <Body/>
     <Cards/>
-    <From/>
+    <Form/>
     <Footer/>
     </div>
   );

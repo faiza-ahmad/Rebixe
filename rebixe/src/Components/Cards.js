@@ -1,13 +1,16 @@
+// import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import third from './third.jpg';
 function Cards() {
     return ( 
         <>
         <div className="card">
-            <h2>TECH FOR TEENS - A RUBIXE INITIATIVE</h2><br/>
-            <div className="cards">
+            <h2>TECH FOR TEENS - A RUBIXE INITIATIVE</h2><br/>.
+            <img src={third} alt="icon"/>
+            {/* <div className="cards">
             
             <div className="c1">
-           {/* <div className="head">*/}<h4>01</h4>
-
+           <div className="head"><h4>01</h4></div>
+           <FontAwesomeIcon icon="fa-solid fa-microchip-ai"></FontAwesomeIcon>
             <p> Introduction AI to children in an age appropriate manner </p>
             </div>
             <div className="c2">
@@ -28,7 +31,7 @@ function Cards() {
                     Train the teachers programme
                 </p>
             </div>
-            </div> 
+            </div>  */}
         </div>
         </>
      );

@@ -9,14 +9,14 @@ function Header() {
         </div>
         <div className="list">
             <ul>
-                <li>HOME</li>
-                <li>SERVICES</li>
-                <li>PRODUCT</li>
-                <li>AI INTERNSHIP</li>
-                <li>CAREER</li>
-                <li>BLOG</li>
-                <li>ABOUT</li>
-                <li>CONTACT US</li>
+              <a href="https://rubixe.com/"><li>HOME</li></a>
+              <a href="https://rubixe.com/services/">  <li>SERVICES</li></a>
+              <a href='https://rubixe.com/products/'>  <li>PRODUCT</li></a>
+                 <li>AI INTERNSHIP</li>
+                <a href='https://rubixe.com/career/'>  <li>CAREER</li></a>
+                <a href='https://rubixe.com/blog/'>  <li>BLOG</li></a>
+                <a href='https://rubixe.com/about/' > <li>ABOUT</li></a>
+                <a href='https://rubixe.com/contact-us/'><li>CONTACT US</li></a>
             </ul>
             </div>
             
