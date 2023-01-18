@@ -2,7 +2,7 @@ function Cards() {
     return ( 
         <>
         <div className="card">
-            <h1>TECH FOR TEENS - A RUBIXE INITIATIVE</h1><br/>
+            <h2>TECH FOR TEENS - A RUBIXE INITIATIVE</h2><br/>
             <div className="cards">
             <div className="c1">
             <h4>01</h4>
@@ -12,7 +12,7 @@ function Cards() {
               <p>  Gain awareness on AI and build an interactive story around it </p>
               <h4>02</h4>
             </div>
-            <div className="c3">
+            <div className="c3"> 
             <h4>03</h4>
             <p>  Acquire programming skills in a user-friendly format</p>
             </div>

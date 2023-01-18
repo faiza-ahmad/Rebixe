@@ -62,7 +62,16 @@
       display: flex;
       margin-left: 10%;
       margin-right: 10%;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
    }
+   .card h2{
+      margin-left: 10%;
+      margin-right: 10%;
+      
+   }
+   
    .card h4{
       background-color: rgb(197, 187, 187);
       width: fit-content;
