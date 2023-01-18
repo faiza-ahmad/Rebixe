@@ -1,4 +1,11 @@
 footer{
-    background-color: black;
+    background-color: rgb(24, 24, 24);
     color: white;
+}
+footer p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+*{
+    scroll-behavior: smooth;
 }

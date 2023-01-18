@@ -7,6 +7,8 @@
   display: flex;
   margin-top: 0;
   top: 0;
+  cursor: pointer;
+  justify-content: space-around;
 }
 .navbar .list ul{
     align-items: right;
@@ -48,9 +50,58 @@
     background-color: rgb(201, 59, 201);
     color: white;
     font-size: 14px;
-    width: 100vw;
  }
  .purple .text{
     width: 63rem;
     font-size: 16px;
+ }
+
+
+  /*  cards css */
+   .cards{
+      display: flex;
+      margin-left: 10%;
+      margin-right: 10%;
+   }
+   .card h4{
+      background-color: rgb(197, 187, 187);
+      width: fit-content;
+      height: fit-content;
+      border-radius: 50%;
+      box-shadow: black;
+   }
+
+ /* footer  */
+ .foot {
+    padding-top: 0.75%;
+    height: 5vh;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 193, 193);
+ }
+ .about{
+    opacity: 0.8;
+    display: flex;
+    background-color: rgb(228, 227, 227);
+    color: grey;
+    font-size: 0.75rem;
+ }
+  .about .p1 .para{
+   width: 33vw;
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+ .about .list , .learn , .address{
+    display: block;
+ }
+ .about .list ul li{
+    list-style: none;
+ }
+ .about .list{
+    margin-right: 35px;
+ }
+ .about .address{
+    width: 30vw;
+    display: list-item;
+    margin-left: 10%;
  }

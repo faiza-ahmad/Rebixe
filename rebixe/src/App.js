@@ -1,6 +1,8 @@
-
 import './App.css';
 import Body from './Components/Body';
+import Cards from './Components/Cards';
+import Footer from './Components/Footer';
+import From from './Components/Form';
 import Header from './Components/Header';
 
 function App() {
@@ -8,9 +10,9 @@ function App() {
     <div className="App">
     <Header/>
     <Body/>
-    <footer>
-                © Copyright 2017 - 2023 | Rubixe is a brand of THINK AHEAD INNOVATIONS PVT. LTD. | All Rights Reserved
-    </footer>
+    <Cards/>
+    <From/>
+    <Footer/>
     </div>
   );
 }

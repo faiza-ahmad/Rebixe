@@ -12,7 +12,7 @@ function Header() {
                 <li>HOME</li>
                 <li>SERVICES</li>
                 <li>PRODUCT</li>
-                <li>AI INTERSHIP</li>
+                <li>AI INTERNSHIP</li>
                 <li>CAREER</li>
                 <li>BLOG</li>
                 <li>ABOUT</li>
