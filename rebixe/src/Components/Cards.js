@@ -4,8 +4,10 @@ function Cards() {
         <div className="card">
             <h2>TECH FOR TEENS - A RUBIXE INITIATIVE</h2><br/>
             <div className="cards">
+            
             <div className="c1">
-            <h4>01</h4>
+           {/* <div className="head">*/}<h4>01</h4>
+
             <p> Introduction AI to children in an age appropriate manner </p>
             </div>
             <div className="c2">
